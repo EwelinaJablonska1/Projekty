@@ -1,0 +1,58 @@
+ID,"Miejsce w specyfikacji, gdzie jest błąd",Co jest błędem,Jak powinno być ?
+1,str 4,"Wymagane są cztery wersje aplikacji klienckiej, a wypisane są tylko trzy",Powinny być 3 wersje aplikacji
+2,str 8,Dostarczanie danych do części serwerowej przy braku połączenia z siecią - opis funkcjonalności opisany poniżej - nie jest to opisane poniżej,
+3,str 8,W aplikacji dostępnych ma być nie mniej niż 15 zadać (problemów) - nie jest opisana dokładna ilość,Powinno być 24 zadania
+4,str 8,"tryb drużyny - jak jest tworzona, jak działa aplikacja, czy kapitan jest oznaczony",
+5,str 9,"Część serwerowa ma wyświetlać klasyfikację generalną na zewnętrznym monitorze - jak m wyglądać ta klasyfikacja? Czy jest jedna ogólna klasyfikacja czy oddzielnie dla uczestników indywidualnych, a oddzielnie dla drużyn ?",
+6,str 10,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim - brak podanych jakichkolwiek komunikatów w specyfikacji",
+7,str 10,"Format pola ""czas"" gg:mm:ss - godzina, minuta sekunda, milisekunda - w formacie nie ani na schemacie nie jest zawarta milisekunda",format gg:mm:ss
+8,str 10,"Pole ""czas"" - jak długo ma trwać runda?",2 godziny
+9,str 10,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”. Zasady numeracji zadań są opisane poniżej - zasada numeracji nie jest nigdzie opisana,
+10,str 10,"Pole ""Opis problemu"" - zawiera ogólną informację na temat zadania wyświetlonego w polu ""zadania"" wraz z ilością punktów za zadanie - w którym miejscu dokładnie ma wyświetlać się ilość punktów za zadanie","Na górze pola, przed treścią zadania"
+11,str 10,"Pole ""lista zadań"" - umożliwia nawigację pomiędzy zadaniami. Zadania bez
+ udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone
+ muszą się odznaczać innym kolorem. - Nie jest wskazane jakimi kolorami mają się odznaczać","Zadania z udzieloną odpowiedzią - jest wyszarzone i nieaktywne
+Zadanie aktywne - pole zadania jest czarne
+Zadanie bez udzielonej odpowiedzi - pole zadania jest białe"
+12,str 10,"Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio bieżącego, następnego i poprzedniego zadania.","""Następne"" i ""Poprzednie"" przenoszą do następnego lub poprzedniego zadania (bez bieżącego)"
+13,str 9 i 10,"Przycisk umożliwiający zgłoszenie defektu na str 9 nazywa się “Znalazłem defekt”, a na str 10 “Zaraportuj defekt”","Przycisk nazywa się ""Zgłoś defekt"""
+14,"str 4,8, 10","Na str 10 - Przycisk “Zaraportuj defekt” - Funkcja ta jest dostępna we wszystkich trybach pracy aplikacji. Na str. 4 oraz 8 funkcja ""zaraportuj defekt"" nie jest dostępna w trybie członka zespołu","Przycisk nazywa się ""Zgłoś defekt"", funkcja nie jest dostępna w trybie członka zespołu"
+15,str 10,"Brak opisu w jaki sposób będzie można zaraportować defekt po kliknięciu przycisku ""Zaraportuj defekt""","Przycisk nazywa się ""Zgłoś defekt"", Wyświetla się nowe okno z kategoriami błędów w postaci checkbox, możliwy wybór tylko jednego defektu. Kategorie:- Funkcjonalność
+- Przenaszalność
+- Bezpieczeństwo
+- Niezawodność
+- Wydajność
+- Walidacja wartości pola
+- Walidacja danych
+- Informacja w interfejsie niezgodna z rzeczywistością
+- Dopasowanie
+- Dostępność
+- Interfejs
+- Baza danych
+- Wartości graniczne i klasy równoważności
+- Przepływ sterowania
+- Operacje matematyczne"
+16,str 10,"Jak będzie wyglądał komunikat po kliknięciu przycisku ""Zakończ"", czy jest on dostępny we wszystkich trybach?","""Po zakończeniu Twój wynik zostanie przeliczony w oparciu o aktualne rozwiązane zadania. Czy chcesz zakończyć?"""
+17,str 10,"Jak będzie wyglądało okno po kliknięciu przycisku ""zakończ""? Czy wrócimy do okna z zadaniami bez możliwości ich edycji, czy pojawi się inny widok?",Pojawi się nowe okno z punktacją
+18,str 11,"Okno “Zadania” - wyświetlane jest w nim zadanie w którym użytkownik musi odnaleźć defekty - tutaj jest liczba mnoga, a na str. 8 jest dokładnie napisane, że jedno zadanie zawiera jeden defekt",Powinien być tylko jeden defekt
+19,str 11,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768 i być estetyczne. - słowo estetycznie nie jest odpowiednie,
+20,str 11,"Na schemacie pokazane jest 12 zadań, a jest ich więcej. Nie jest opisane w tekście ani pokazane na rysunku w jaki sposób przejść do widoku kolejnych zadań","Wszystkie 24 zadania wyświetlone są w polu ""Lista zadań"""
+21,"str 10, 11","Treść opisu zadania na schemacie jest w języku obcym, podczas gdy wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim.",
+22,str 11,"Na schemacie istnieje przycisk ""status połączenia"", który w żaden sposób nie jest opisany",
+23,"str 7, 11",str. 7 - Język programowania oraz baza danych użyta podczas tworzenia aplikacji nie są zdefiniowane. Ich wybór jest pozostawiony Wykonawcy zlecenia. str 11 - Aplikacja serwerowa ma zostać stworzona przy wykorzystaniu języka Java7.,język programowania oraz baza danych niezdefiniowana
+24,str 12,"wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1 - błąd w zapisie jednostki, jaka powinna być prawidłowa wartość?",Prawidłowa jednostka to 2MB
+25,str 12,"podany jest wzór wydajności aplikacji jest niejasny, brakuje jednostek",
+26,str 12,"niejasny czas odpowiedzi interfejsu - raz jest napisane ""krótszy od 1 sekundy"", poniżej we wzorze średni czas interfejsu ma być większy od 10000",czas krótszy niż 1 sekunda
+27,str 12,"login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny - wielka, mała litera, cyfra oraz znak specjalny to już są 4 znaki, login nie może się więc składać z min. 2 znaków","Login składa się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+28,str 13,"konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części - część hasła, to błędne hasło",konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+29,str 13,"Jakie znaki mają się pojawiać po wpisaniu hasła przy logowaniu jeśli są one zaszyfrowane (np. gwiazdki, kropki)",mają pojawić się gwiazdki
+30,str 13,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części - czy wyświetla się komunikat po błędnym wpisaniu hasła? Jeśli tak to jak ma wyglądać i co ma być napisane.,"tak wyświetla się komunikat ""Wpisane hasło jest nieprawidłowe"""
+31,str 13,"czym są tokeny, które są generowane losowo?",
+32,"str 6, 14","na stronie 6 napisane jest, że wersja demonstracyjna zawiera tylko jedno zadanie testowe, na stronie 14 podane są 2 zadania testowe",Powinno być tylko jedno zadanie w wersji demonstracyjnej. W oknie zadania wyświetlony jest kalkulator z możliwością wykonania tylko jednego typu operacji - dzielenia. Defekt polega na błędnym dzieleniu przez zero. W wyniku takiej operacji na ekranie wyświetla się zero
+33,str 14,"podział defektów trywialne (1-2 pkt), normalne (3-4), krytyczne (4-6). Czy krytyczne nie powinny przyjmować wartości 5-6?","trywialne (1-2)
+normalne (3-4)
+krytyczne (5-6)"
+34,str 14,czy można mieć punkty ujemne czy najniższą wartością jest 0?,mogą być punkty ujemne
+35,,nie zostały podane treści zadań do aplikacji klienckiej,
+36,,"jak ma wyglądać okno zakładania konta, jakie dane trzeba podać, czy wystarczy tylko login i hasło czy też np. imię i nazwisko, mail",
+37,,Jak wizualnie ma wyglądać aplikacja przed założeniem konta lub zalogowaniem się,
