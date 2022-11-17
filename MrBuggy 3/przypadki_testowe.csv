@@ -1,0 +1,118 @@
+TCID,Tytuł,Warunki wstępne,ID Kroku,Opis kroku,Oczekiwany rezultat
+1,Poprawne założenie konta,Otwara aplikacja MrBuggy 3,1,"Klikam ""Rejestracja""",Otwiera się nowe okno z formularzem rejestracyjnym
+,,e-mail: annagnat556@wp.pl,2,W miejscu nazwa użytkownika wpisuję użytkownika: Anna!55,W polu input pojawiła się nazwa użytkownika
+,,,3,W miejscu e-mail wpisuję: annagnat556@wp.pl,W polu input pojawiła się wpisany e-mail
+,,,4,W miejscu hasło wpisuję: PannaAnna57!PannaAnna,W polu input pojawia się zaszyfrowane hasło
+,,,5,"W miejscu ""powtórz hasło"" wpisuję: PannaAnna57!PannaAnna",W polu input pojawia się zaszyfrowane hasło
+,,,6,"Zaznaczam checkbox ""Akceptuję regulamin""",Checkbox został zaznaczony
+,,,7,"Klikam ""Zarejestruj""","Wyświetlił się komunikat "" Konto zostało utworzone poprawnie"""
+2,Poprawne zalogowanie ,Otwarta aplikacja MrBuggy 3,1,"Wpisuję annagnat556@wp.pl w polu input oznaczonym ""Adres e-mail""",W polu input pojawił się adres e-mail
+,,e-mail: annagnat556@wp.pl,2,"Wpisuję hasło PannaAnna57!PannaAnna i klikam ""Zaloguj""","Otwiera się okno ""Dane użytkownika"""
+,,hasło: PannaAnna57!PannaAnna,,,
+3,Niepoprawny login podczas zakładania konta,Otwarta aplikacja MrBuggy 3,1,"Klikam ""Rejestracja""",Otwiera się nowe okno z formularzem rejestracyjnym
+,,,2,W miejscu e-mail wpisuję: annagnat876@wp.pl,W polu input pojawiła się wpisany e-mail
+,,,3,W miejscu hasło wpisuję: PannaAnna57!PannaAnna,W polu input pojawia się zaszyfrowane hasło
+,,,4,"W miejscu ""powtórz hasło"" wpisuję: PannaAnna57!PannaAnna",W polu input pojawia się zaszyfrowane hasło
+,,,5,"Zaznaczam checkbox ""Akceptuję regulamin""",Checkbox został zaznaczony
+,,,6,"Miejsce nazwa użytkownika pozostawiam pustą i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Nazwa użytkownika] jest wymagane"""
+,,,7,"W miejsce nazwa użytkownika wpisuję a i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z 4-8 znaków"""
+,,,8,"W miejsce nazwa użytkownika wpisuję AnnaM!579 i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z 4-8 znaków"""
+,,,9,"W miejsce nazwa użytkownika wpisuję: anna!57 i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z jednej wielkiej litery, małej litery, cyfry i znaku specjalnego"""
+,,,10,W miejsce nazwa użytkownika wpisuję: Anna57,"Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z jednej wielkiej litery, małej litery, cyfry i znaku specjalnego"""
+,,,11,W miejsce nazwa użytkownika wpisuję: Anna!,"Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z jednej wielkiej litery, małej litery, cyfry i znaku specjalnego"""
+,,,12,W miejscy nazwa użytkownika wpisuję: ANNA!57,"Wyświetlił się komunikat "" Pole [Nazwa użytkownika] musi składać się z jednej wielkiej litery, małej litery, cyfry i znaku specjalnego"""
+,,,13,W miejsce nazwa użytkownika wpisuję: Anna !57,"Wyświetlił się komunikat "" Pole [Nazwa użytkownika] może zawierać tylko małe i duże litery, cyfry oraz znaki !@#$%^&*?"""
+,,,14,W miejsce nazwa użytkownika wpisuję: AnnaŚ!56,"Wyświetlił się komunikat "" Pole [Nazwa użytkownika] może zawierać tylko małe i duże litery, cyfry oraz znaki !@#$%^&*?"""
+4,Założenie konta przy pomocy podania niepoprawnego hasła,Otwarta aplikacja MrBuggy 3,1,"Klikam ""Rejestracja""",Otwiera się nowe okno z formularzem rejestracyjnym
+,,e-mail annagnat876@wp.pl,2,W miejscu nazwa użytkownika wpisuję: użytkownika: Anna!57,W polu input pojawiła się nazwa użytkownika
+,,,3,W miejscu e-mail wpisuję: annagnat876@wp.pl,W polu input pojawiła się wpisany e-mail
+,,,4,"Zaznaczam checkbox ""Akceptuję regulamin""",Checkbox został zaznaczony
+,,,5,Miejsce hasło i powtórz hasło pozostawiam puste,pole input przy haśle i jego powtórzeniu zostaje puste
+,,,6,"Klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [hasło] jest wymagane"""
+,,,7,"W miejsce hasło i powtórz hasło wpisuję pannaanna57!pannaanna i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] musi zawierać conajmniej jedną małą literę, jedną dużą literę oraz jedną cyfrę"""
+,,,8,"W miejsce hasło i powtórz hasło wpisuję PannaAnna!PannaAnna i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] musi zawierać conajmniej jedną małą literę, jedną dużą literę oraz jedną cyfrę"""
+,,,9,"W miejsce hasło i powtórz hasło wpisuję PANNAANNA57!PANNAANNA i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] musi zawierać conajmniej jedną małą literę, jedną dużą literę oraz jedną cyfrę"""
+,,,10,"W miejsce hasło i powtórz hasło wpisuję PannaAnna57! i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] musi składać się z co najmniej 20 znaków"""
+,,,11,"W miejsce hasło i powtórz hasło wpisuję Panna Anna57!Panna Anna i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] nie może zawierać białych znaków"""
+,,,12,"W miejsce hasło i powtórz hasło wpisuję PannaAnna57!PannaŚŚŚŚ i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] nie może zawierać polskich znaków"""
+,,,13,"W miejsce hasło i powtórz hasło wpisuję PannaAnna57PannaAnna i klikam ""Zarejestruj""","Wyświetlił się komunikat "" Pole [Hasło] musi zawierać conajmniej jedną małą literę, jedną dużą literę oraz jedną cyfrę"""
+5,Konto zostało zablokowane po 3-krotnym błędny wpisaniu hasła,Otwarta aplikacja MrBuggy 3,1,"Wipsuję annagnat556@wp.pl w polu input oznaczonym ""Adres e-mail""",W polu input pojawił się adres e-mail
+,,e-mail: annagnat556@wp.pl,2,"Wpisuję hasło inne niż ""PannaAnna!57PannaAnna"" i klikam ""Zaloguj""","Wyświetlił się komunikat ""Niepoprawny adres e-mail i/lub hasło."
+,,hasło: PannaAnna57!PannaAnna,3,"Drugi raz wpisuję hasło  inne niż ""PannaAnna!57PannaAnna"" i klikam ""Zaloguj""","Wyświetlił się komunikat ""Niepoprawny adres e-mail i/lub hasło."
+,,,4,"Trzeci raz wpisuję hasło  inne niż ""PannaAnna!57PannaAnna"" i klikam ""Zaloguj""","Wyświetlił się komunikat ""Niepoprawny adres e-mail lub hasło, konto zostało zablokowane"""
+6,W aplikacji powinno być 24 zadania,Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,"Patrzę ile zadań jest do wykonania w ""Menu bocznym"" po prawej stronie",Widoczne jest 24 zadania
+7,Wygląd okna aplikacji klienckiej,Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Sprawdzam czy widoczna jest ikona MrBuggy,W górnym lewym rogu znajduje się ikona MrBuggy
+,,,4,Patrzę na podział okien w aplikacji,"Okno jest podzielone na dwie części - ""Zadania"" oraz ""Menu boczne"""
+,,,5,"Patrzę na elementy okna ""Menu boczne"" znajdujące się po prawej stronie okna","Okno ""Menu boczne"" składa się z pola:
+- Czas
+- Nr zadania
+- Opis problemu
+- Lista zadań
+- przyciski nawigacyjne ""Następne"" i ""Poprzednie""
+- Zgłoś defekt
+- Zakończ"
+,,,6,"Patrzę na elementy okna ""Zadania""","W polu ""Zadania"" wyświetlane jest zadanie do wykonania"
+8,"Wygląd niektórych elementów  ""Menu bocznego""",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,"Patrzę na pole ""Czas""",Widzę czas podany w formacie gg:mm:ss
+,,,4,"Patrzę na pole ""Numer zadania""",Widzę numer zadania do wykonania
+,,,5,"Patrzę na pole ""Opis problemu"" ",Widzę polecenie zadania wyświetlonego do wykonania wraz z ilością punktów za zadanie
+,,,6,"Patrzę na pole ""Lista zadań""",Widzę pola z numerami zadań
+9,"Działanie przycisków nawigacyjnych ""Następny"" i ""Poprzedni""",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Patrzę na numer zadania,Wyświetla się zadania nr 1
+,,,4,"Klikam przycisk ""Następne""",Wyświetla się zadanie nr 2
+,,,5,"Klikam przycisk ""Poprzednie""",Wyświetla mi się zadanie nr 1
+10,"Działanie przycisku ""Zgłoś defekt""",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,"Klikam ""Zgłoś defekt""","Uruchamia się okno w postaci checkbox z kategoriami defektów:
+- Funkcjonalność
+- Przenaszalność
+- Bezpieczeństwo
+- Niezawodność
+- Wydajność
+- Walidacja wartości pola
+- Walidacja danych
+- Informacja w interfejsie niezgodna z rzeczywistością
+- Dopasowanie
+- Dostępność
+- Interfejs
+- Baza danych
+- Wartości graniczne i klasy równoważności
+- Przepływ sterowania
+- Operacje matematyczne"
+,,,4,"Klikam ""Funkcjonalność"" i ""Przenaszalność""","Wyświetla się komunikat ""Możesz wybrać tylko jedną kategorię defektu"""
+,,,5,"Odklikuję ""Przenaszalność""","Wyświetla się komunikat ""Uwaga! Po zatwierdzeniu zadania nie będziesz mógł(a) do niego wrócić. Czy chcesz kontynuować?"""
+,,,6,"Klikam ""TAK""","Wyświetliło się kolejne zadania, nie ma możliwości powrotu do poprzedniego"
+11,"Działanie przycisku ""Zakończ""",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Patrzę na numer zadania,Wyświetla się zadania nr 1
+,,,4,"Klikam przycisk ""Zakończ""","Wyświetla się komunikat ""Po zakończeniu Twój wynik zostanie przeliczony w oparciu o aktualne rozwiązania. Czy chcesz zakończyć?"" oraz przyciski ""Tak"" i ""Nie"""
+,,,5,"Klikam przycisk ""Tak""","Wyświetla się komunikat z aktualną liczbą punktów, swoim najlepszym wynikiem, czasem trwania rundy i liczbą ukończonych zadań"
+,,,6,"Klikam przycisk ""Zamknij"" ",Program zamyka się
+12,Punktacja za zadania,Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Patrzę na punktację za wszystkie zadania,"Widzę zadania, za które można dostać 1,2,3,4,5 lub 6 punktów"
+,,,4,"Klikam ""Zakończ""","Wyświetla się komunikat ""Po zakończeniu Twój wynik zostanie przeliczony w oparciu o aktualne rozwiązania. Czy chcesz zakończyć?"" oraz przyciski ""Tak"" i ""Nie"""
+,,,5,"Klikam ""TAK""",Otwiera się okno z liczbą pkt 0
+,,,6,Otwieram ponownie aplikację,Aplikacja otwiera się
+,,,7,"Loguję się poprawnymi danymi i klikam ""Rozpocznij""",Uruchamia się okno aplikacji z zadaniami
+,,,8,"Wykonuję zadanie i klikając ""Zgłoś defekt"" zaznaczam niepoprawną odpowiedź i klikam zatwierdź","Wyświetlił się komunikat ""Uwaga! Po zatwierdzeniu zadania nie będziesz mógł(a) do niego wrócić. Czy chcesz kontynuować?"""
+,,,9,"Klikam ""TAK""",Otwiera się kolejne zadanie
+,,,10,"Klikam ""Zakończ""","Wyświetla się komunikat ""Po zakończeniu Twój wynik zostanie przeliczony w oparciu o aktualne rozwiązania. Czy chcesz zakończyć?"" oraz przyciski ""Tak"" i ""Nie"""
+,,,11,"Klikam ""TAK""",Otwiera się okno z liczbą pkt -2
+13,"Pole ""Lista zadań"" - wygląd zadań wykonanych i niewykonanych",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Patrzę jak wyglądają ikony zadań,"Okrągłe pole zadania nr 1, które muszę wykonać jest czarne, pozostałe pola są białe"
+,,,4,"Klikam ""Zgłoś defekt""",Wyświetla się okno z rodzajem defektu do wyboru
+,,,5,"Wybieram ""Funkcjonalność"" i klikam zatwierdź","Wyświetlił się komunikat ""Uwaga! Po zatwierdzeniu zadania nie będziesz mógł(a) do niego wrócić. Czy chcesz kontynuować?"""
+,,,6,"Klikam ""Tak""","Widzę następne zadanie. Zadanie nr 1 jest wyszarzone, nie można na nie kliknąć. Pole z numerem zadania 2 jest czarne. Pozostałe niewykonane zadania są białe "
+14,"Pole ""Lista zadań"" - nawigacja pomiędzy zadaniami",Otwarta aplikacja MrBuggy 3,1,"Wpisuję e-mail, hasło i klikam ""Zaloguj""","Uruchamia się okno ""Dane użytkownika"""
+,,e-mail: annagnat556@wp.pl,2,"Klikam ""Rozpocznij""",Wyświetla się okno z zadaniami do wykonania
+,,hasło: PannaAnna57!PannaAnna,3,Patrzę na numer zadania,Widzę wyświetlone zadanie nr 1.
+,,,4,Klikam na ikonę zadania nr 8,Wyświetla się zadanie nr 8
+,,,5,Klikam ikonę zadania nr 5,Wyświetla się zadanie nr 5
